@@ -23,7 +23,6 @@ def jendelaInput():
             layar_second.delete(0, END)
             layar_second.insert(0, "Temperatur UP")
 
-
     def kurang():
         suhu = layar_main.get()
         if suhu == "16":
